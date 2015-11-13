@@ -1,0 +1,8 @@
+eccube.event.render.admin_product_category.before:
+    - [onRenderAdminProductCategoryNewBefore, NORMAL]
+eccube.event.controller.admin_product_category.after:
+    - [onRenderAdminProductCategoryNewAfter, NORMAL]
+eccube.event.render.admin_product_category_edit.before:
+    - [onRenderAdminProductCategoryEditBefore, NORMAL]
+eccube.event.controller.admin_product_category_edit.after:
+    - [onAdminProductCategoryEditAfter, NORMAL]

@@ -1,0 +1,2 @@
+eccube.event.render.admin_product_category.before:
+    - [onRenderAdminProductCategoryNewBefore, NORMAL]

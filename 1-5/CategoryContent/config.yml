@@ -1,0 +1,6 @@
+name: CategoryContent
+code: CategoryContent
+version: 0.0.1
+event: CategoryContentEvent
+service:
+    - CategoryContentServiceProvider
